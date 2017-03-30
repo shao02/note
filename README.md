@@ -151,8 +151,8 @@ Summary:
   * Executor is an interface, there is only one method -> execute(Runnable).
   * ExecutorService extends Executor with methods submit, invokeAll, invokeAny, and shutDown etc.
   * AbstractExecutorService extends ExecutorService, implements most of the methods
-  * ThreadPoolExecutorService extends AbstractExecutorService
-  * Key methods for ThreadPoolExecutorService
+  * ThreadPoolExecutor extends AbstractExecutorService
+  * Key methods for ThreadPoolExecutor
     * execute() - submit a task for the threadPool to execute
     * submit() - return task result
       ```
